@@ -73,10 +73,6 @@ public class Book implements Cloneable, Comparable<Book> {
 
     @Override
     public int compareTo(Book o) {
-        int result = 0;
-        if (isbn == o.getIsbn()) result = 0;
-        if (isbn < o.getIsbn()) result = -1;
-        if (isbn > o.getIsbn()) result = 1;
-        return result;
+        return  Integer.compare(isbn,o.getIsbn());
     }
 }

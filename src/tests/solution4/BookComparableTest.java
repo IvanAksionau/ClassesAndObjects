@@ -5,7 +5,6 @@ import solution4.app.Book;
 import java.util.ArrayList;
 import java.util.TreeSet;
 
-import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
 import static org.junit.Assert.assertTrue;
 
 /**

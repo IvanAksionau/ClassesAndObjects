@@ -1,3 +1,4 @@
+package Solution1;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;

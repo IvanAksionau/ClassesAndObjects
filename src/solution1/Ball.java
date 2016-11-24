@@ -7,6 +7,9 @@ public class Ball {
     private double weight;
     private Color color;
 
+    public Ball() {
+    }
+
     public Ball(double weight, Color color) {
         if(!(weight < 0)) {
             this.weight = weight;

@@ -13,6 +13,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class BasketTest {
     ArrayList<Ball> balls;
+    privat final double TOTAL_WEIGHT = 9.42;
 
     @Before
     public void setUp() {
@@ -27,7 +28,7 @@ public class BasketTest {
     public void getTotalWeight() throws Exception {
 
         Basket basket = new Basket(balls);
-        assertEquals(9.42, basket.getTotalWeight(), 0.01);
+        assertEquals(TOTAL_WEIGHT, basket.getTotalWeight(), 0.01);
     }
 
     @Test
